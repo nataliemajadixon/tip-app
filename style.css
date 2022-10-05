@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+body{
+    background-image: url(https://images.pexels.com/photos/2901215/pexels-photo-2901215.jpeg?auto=compress&cs=tinysrgb&w=800);
+    background-color:antiquewhite;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.tipText{
+    text-align: center;
+    position: relative;
+    top: 15%;
+    bottom: 75%;
+    font-family:'Lora', serif;
+    color:white;
+    
+}
+.button{
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lora', serif;
+
+    border: 5pt;
+    border-color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 7px rgb(154, 179, 243);
+}
+
+.button:hover{
+    background-color: rgb(159, 217, 238); 
+}
+.button:active {
+    background-color: rgb(163, 218, 176);
+    box-shadow: 0 5px green;
+    
+}
+#bill-amount{
+    width: 200px;
+    padding: 10px 15px;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 3px solid rgb(154, 179, 243);
+    border-radius: 5px;
+
+}
+#tipheader{
+    font-family: 'Lora', serif;
+    text-align: center;
+    position: relative;
+    top: 5%;
+    bottom: 95%;
+    font-family:'Lora', serif;
+    color:white;
+}
